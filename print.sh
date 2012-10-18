@@ -1,17 +1,17 @@
 tmp1=`lpq -Ppsts | wc -l`
 tmp2=`lpq -Ppsts-sx | wc -l`
 tmp3=`lpq -Ppsts-dx | wc -l`
-p1=(tmp1 + tmp2 + tmp3)
+p1=$(($tmp1 + $tmp2 + $tmp3))
 
 tmp1=`lpq -Ppstsb | wc -l`
 tmp2=`lpq -Ppstsb-sx | wc -l`
 tmp3=`lpq -Ppstsb-dx | wc -l`
-p2=(tmp1 + tmp2 + tmp3)
+p2=$(($tmp1 + $tmp2 + $tmp3))
 
 tmp1=`lpq -Ppstsc | wc -l`
 tmp2=`lpq -Ppstsc-sx | wc -l`
 tmp3=`lpq -Ppstsc-dx | wc -l`
-p3=(tmp1 + tmp2 + tmp3)
+p3=$(($tmp1 + $tmp2 + $tmp3))
 
 
 if [ $p1 -le $p2 -a $p1 -le $p3 ]
