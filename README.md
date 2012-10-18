@@ -3,6 +3,7 @@
 ##print.sh
 Figures out which printer in front of tech svcs has the smallest amount of jobs backlog and sends job to that printer. Deletes printed files afterwards.
 
+Script has to be run on Sunfire
 ###How to use
 1. Download print.sh into a directory of your choice.
 2. Create a folder to_print in the same directory as print.sh
