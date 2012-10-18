@@ -17,13 +17,16 @@ if [ $p1 -le $p2 -a $p1 -le $p3 ]
 then
         echo "psts-dx"
         lpr -Ppsts-dx to_print/*.ps
+        lpq -Ppsts-dx
 elif [ $p2 -le $p3 ]
 then
         echo "pstsb-dx"
         lpr -Ppstsb-dx to_print/*.ps
+        lpq -Ppstsb-dx
 else
         echo "pstsc-dx"
         lpr -Ppstsc-dx to_print/*.ps
+        lpq -Ppstsc-dx
 fi
 
 rm to_print/*.ps
