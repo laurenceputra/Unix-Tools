@@ -1,4 +1,4 @@
-#Script(s) I wrote to make my life
+#Script(s) I wrote to make my life easier
 
 ##memory_limit.sh
 To be used as a cronjob to monitor the app
