@@ -1,5 +1,11 @@
 #Script(s) I wrote to make my life
 
+##memory_limit.sh
+To be used as a cronjob to monitor the app
+
+###Sample Rule for cronjob
+    */5 * * * * $HOME/memory_limit.sh
+
 ##print.sh (For School of Computing, NUS only)
 Figures out which printer in front of tech svcs has the smallest amount of jobs backlog and sends job to that printer. Deletes printed files afterwards.
 

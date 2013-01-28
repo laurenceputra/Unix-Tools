@@ -1,3 +1,5 @@
+#run it in cronjob at regular intervals
+
 #setup before running
 #change `your_username` to your username
 #change `your command here` to the command you are running
