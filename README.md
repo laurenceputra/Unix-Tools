@@ -1,6 +1,6 @@
-#Script(s) I wrote to make my life in SoC easier
+#Script(s) I wrote to make my life
 
-##print.sh
+##print.sh (For School of Computing, NUS only)
 Figures out which printer in front of tech svcs has the smallest amount of jobs backlog and sends job to that printer. Deletes printed files afterwards.
 
 Script has to be run on Sunfire
