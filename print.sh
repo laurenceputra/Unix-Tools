@@ -1,3 +1,6 @@
+find to_print -type f | sed 's, ,\\&,g' | xargs -n 1 pdftops -duplex
+rm to_print/*.pdf
+
 tmp1=`lpq -Ppsts | wc -l`
 tmp2=`lpq -Ppsts-sx | wc -l`
 tmp3=`lpq -Ppsts-dx | wc -l`
